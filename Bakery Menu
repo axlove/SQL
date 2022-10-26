@@ -1,0 +1,18 @@
+CREATE TABLE bakery_menu ( item TEXT, cost INTEGER);
+INSERT INTO bakery_menu VALUES ("Latte", 4.50);
+INSERT INTO bakery_menu VALUES ("Coffee", 3.00);
+INSERT INTO bakery_menu VALUES ("Espresso",2.75);
+INSERT INTO bakery_menu VALUES ("Tea", 2.00);
+INSERT INTO bakery_menu VALUES ("Hot chocolate", 3.50);
+INSERT INTO bakery_menu VALUES ("Orange Juice", 4.00);
+INSERT INTO bakery_menu VALUES ("Blueberry Scones", 3.00); 
+INSERT INTO bakery_menu VALUES ("Cheese Danish", 2.00);
+INSERT INTO bakery_menu VALUES ("Croissant", 1.75);
+INSERT INTO bakery_menu VALUES ("Bagel with cream cheese", 4.50);
+INSERT INTO bakery_menu VALUES ("Muffin", 2.00);
+INSERT INTO bakery_menu VALUES ("Bacon egg and cheese croissant", 6.00);
+INSERT INTO bakery_menu VALUES ("Egg and cheese croissant", 5.00);
+INSERT INTO bakery_menu VALUES ("Ham and cheese bagel", 6.00);
+INSERT INTO bakery_menu VALUES ("Omelette", 6.50);
+SELECT * FROM bakery_menu;
+
